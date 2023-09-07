@@ -19,11 +19,11 @@ const Design = () => {
 
 
     return (
-        <section className='container mx-auto mt-10 flex items-center'>
-            <div className="w-6/12">
-                <Image />
+        <section className='container mx-auto max-[768px]:flex-col gap-3 mt-10 flex items-center'>
+            <div className="w-6/12 h-auto max-[768px]:w-8/12">
+                <Image className="w-full h-full" />
             </div>
-            <div className="w-5/12">
+            <div className="w-5/12 max-[768px]:w-10/12">
                 <h2 className='text-4xl text-gray-700 font-bold'>
                     {design?.title}
                 </h2>

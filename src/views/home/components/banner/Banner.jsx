@@ -28,8 +28,8 @@ const Banner = () => {
 
     return (
         <section className='bg-gray-100  py-20 '>
-            <div className="container flex items-center justify-between mx-auto">
-                <div className="w-6/12">
+            <div className="container flex max-[768px]:flex-col items-center justify-between mx-auto">
+                <div className="w-6/12 max-[768px]:w-10/12">
                     <h2 className='text-5xl text-gray-700 font-semibold'>
                         We are the best <span className='text-primary'>IT Solution</span> company
                     </h2>

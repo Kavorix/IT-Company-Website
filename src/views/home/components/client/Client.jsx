@@ -11,13 +11,13 @@ const Client = () => {
     return (
         <section className='text-center mt-6 container mx-auto'>
             <Title title="Our Clients" desc="We have been working with some Fortune 500+ clients" />
-            <div className="flex gap-6 mt-4">
-                <ClientImg1 className="w-1/6" />
-                <ClientImg2 className="w-1/6" />
-                <ClientImg3 className="w-1/6" />
-                <ClientImg4 className="w-1/6" />
-                <ClientImg5 className="w-1/6" />
-                <ClientImg6 className="w-1/6" />
+            <div className="flex max-[768px]:flex-wrap gap-6 max-[768px]:justify-center mt-4">
+                <ClientImg1 className="w-1/6 max-[768px]:w-2/6 " />
+                <ClientImg2 className="w-1/6 max-[768px]:w-2/6" />
+                <ClientImg3 className="w-1/6 max-[768px]:w-2/6" />
+                <ClientImg4 className="w-1/6 max-[768px]:w-2/6" />
+                <ClientImg5 className="w-1/6 max-[768px]:w-2/6" />
+                <ClientImg6 className="w-1/6 max-[768px]:w-2/6" />
             </div>
         </section>
     )

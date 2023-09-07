@@ -17,7 +17,7 @@ const Footer = () => {
 
     return (
         <section className='bg-tertiary p-10 mt-24'>
-            <div className="container flex mx-auto">
+            <div className="container max-[768px]:flex-col gap-8 flex mx-auto">
                 <div className="w-5/12">
                     <div className="flex flex-col gap-8">
                         <Brand />
@@ -31,8 +31,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-7/12 flex gap-6">
-                    <div className="w-3/12">
+                <div className="w-7/12 max-[768px]:w-10/12 flex gap-6">
+                    <div className="w-3/12 max-[768px]:w-5/12">
                         <div className='text-white'>
                             <h3 className='text-xl font-semibold'>
                                 Company
@@ -66,7 +66,7 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="w-3/12">
+                    <div className="w-3/12 max-[768px]:w-4/12">
                         <div className='text-white'>
                             <h3 className='text-xl font-semibold'>
                                 Support

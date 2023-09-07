@@ -5,3 +5,13 @@
 /* main {
     height: calc(100vh - 350px);
 } */
+
+html {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+}

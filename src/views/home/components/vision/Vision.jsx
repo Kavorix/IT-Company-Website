@@ -17,11 +17,11 @@ const Vision = () => {
     }, [])
 
     return (
-        <section className='container mx-auto flex items-center'>
-            <div className='w-6/12'>
+        <section className='container mx-auto flex max-[768px]:flex-col items-center'>
+            <div className='w-6/12 max-[768px]:w-10/12'>
                 <img className='w-full' src={visionImg} alt="" />
             </div>
-            <div className='w-5/12 flex flex-col gap-4 '>
+            <div className='w-5/12 max-[768px]:w-10/12 flex flex-col gap-4 '>
                 <h2 className='text-4xl text-gray-700 font-semibold'>
                     {data.title}
                 </h2>

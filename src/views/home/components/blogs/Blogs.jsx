@@ -25,7 +25,7 @@ const Blogs = () => {
                 title="Caring is the new marketing"
                 desc="The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​"
             />
-            <div className="grid grid-cols-3 gap-4 mt-10">
+            <div className="grid p-5 max-[768px]:grid-cols-1 max-[768px]:gap-12 grid-cols-3 gap-4 mt-10">
                 {blogs?.map((blog, index) => (
                     <Link to={`/blogs/${blog.id}`}>
                         <BlogCard key={index} blog={blog} />

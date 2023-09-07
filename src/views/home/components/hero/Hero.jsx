@@ -5,10 +5,10 @@ import Button from '@src/components/button/Button'
 const Hero = () => {
     return (
         <section className='bg-background h-[600px] flex items-center w-full'>
-            <div className="container mx-auto flex gap-12 items-center">
+            <div className="container mx-auto flex max-[768px]:flex-col gap-12 items-center">
 
                 <div className=" w-9/12 flex flex-col gap-4">
-                    <h1 className='text-gray-600 text-8xl font-bold'>
+                    <h1 className='text-gray-600 text-8xl max-[768px]:text-4xl font-bold'>
                         Lessons and insights <span>
                             from 8 years
                         </span>
@@ -25,7 +25,7 @@ const Hero = () => {
 
                 </div>
                 <div className=" w-3/12">
-                    <HeroImg className="w-full" />
+                    <HeroImg className="w-full max-[768px]:h-auto" />
                 </div>
             </div>
         </section>
