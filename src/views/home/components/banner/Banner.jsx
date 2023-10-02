@@ -4,7 +4,7 @@ import { ReactComponent as MembersICon } from '@src/assets/images/members.svg'
 import { ReactComponent as ClubsIcon } from '@src/assets/images/clubs.svg'
 import { ReactComponent as BookingICon } from '@src/assets/images/booking.svg'
 import { ReactComponent as PaymentIcon } from '@src/assets/images/payment.svg'
-import Statistics from './statistics'
+import Statistics from './Statistics'
 
 const Banner = () => {
 
