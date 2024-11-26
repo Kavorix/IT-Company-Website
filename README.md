@@ -1,8 +1,8 @@
-# nexcent
+# IT Website
 corporative website
 
-Hazırlanan website IT solutuion ilə bağlı corporative bir saytdır.
+The website being developed is a corporative website related to IT solutions.
 
-İstifadə olunan texnologiyalar
+Technologies used
 
 Html/Css/ReactJs/TailwindCss/RestFull/MockApi
